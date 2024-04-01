@@ -1,10 +1,14 @@
-[data-js="root"] {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-  color: #006eff;
+:root {
+  --cor-bl-primary: #03989e;
+  --cor-bl-secondary: #00c2cb;
+  --cor-red-primary: #ff3131;
+  --cor-wt-primary: #f8f8f8;
+  --cor-wt-secondary: #ececec;
+  --cor-black: #000000;
 }
