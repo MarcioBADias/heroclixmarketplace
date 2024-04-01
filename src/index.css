@@ -1,4 +1,6 @@
 * {
+  background: var(--cor-bl-primary);
+  color: var(--cor-wt-primary);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
