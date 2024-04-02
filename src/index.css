@@ -15,6 +15,42 @@
   --cor-black: #000000;
 }
 
+header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+header,
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+header,
+span {
+  color: var(--cor-red-primary);
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: var(--cor-wt-primary);
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+img {
+  width: 250px;
+}
+
 .manutencao {
   align-items: center;
   display: flex;
