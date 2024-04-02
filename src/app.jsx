@@ -1,17 +1,9 @@
 const App = () => {
   return (
     <>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'column',
-          height: '100vh',
-          width: '100vw',
-        }}
-      >
+      <div className="manutencao">
         <img
+          className="logoRotate"
           src="/hcMkpWhite.png"
           style={{
             width: 200,
