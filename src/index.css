@@ -14,3 +14,26 @@
   --cor-wt-secondary: #ececec;
   --cor-black: #000000;
 }
+
+.manutencao {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logoRotate {
+  animation: rotate 20s linear infinite;
+  border-radius: 100%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
