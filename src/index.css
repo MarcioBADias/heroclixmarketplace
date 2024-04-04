@@ -1,5 +1,4 @@
 * {
-  background: var(--cor-bl-primary);
   color: var(--cor-wt-primary);
   box-sizing: border-box;
   margin: 0;
@@ -13,6 +12,18 @@
   --cor-wt-primary: #f8f8f8;
   --cor-wt-secondary: #ececec;
   --cor-black: #000000;
+  --cor-gray: #868686;
+}
+
+body {
+  background: var(--cor-bl-primary);
+}
+
+header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
 .manutencao {

@@ -1,16 +1,13 @@
+import { SearchMenu } from './components/search-menu'
+import { Cards } from './components/cards'
+import { Header } from './components/header'
+
 const App = () => {
   return (
     <>
-      <div className="manutencao">
-        <img
-          className="logoRotate"
-          src="/hcMkpWhite.png"
-          style={{
-            width: 200,
-          }}
-        />
-        <h2>Página em construção</h2>
-      </div>
+      <Header />
+      <SearchMenu />
+      <Cards />
     </>
   )
 }
