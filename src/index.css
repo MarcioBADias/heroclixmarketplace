@@ -26,22 +26,6 @@ header {
   padding: 0.5rem;
 }
 
-.menu {
-  align-items: center;
-  background: var(--cor-red-primary);
-  display: flex;
-  justify-content: space-around;
-  height: 15vh;
-  margin: 1rem 0;
-}
-
-form span {
-  background: var(--cor-red-primary);
-  color: var(--cor-wt-primary);
-  display: flex;
-  flex-direction: column;
-}
-
 .manutencao {
   align-items: center;
   display: flex;
