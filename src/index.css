@@ -12,6 +12,7 @@
   --cor-wt-primary: #f8f8f8;
   --cor-wt-secondary: #ececec;
   --cor-black: #000000;
+  --cor-gray: #868686;
 }
 
 body {
@@ -23,17 +24,6 @@ header {
   display: flex;
   gap: 1rem;
   padding: 0.5rem;
-}
-
-.card {
-  background: var(--cor-wt-primary);
-  border-radius: 15px;
-  padding: 1rem;
-  margin: 0.5rem;
-}
-
-img {
-  width: 250px;
 }
 
 .menu {

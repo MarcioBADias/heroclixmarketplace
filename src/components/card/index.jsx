@@ -1,23 +1,25 @@
+import * as S from './style'
+
 const Card = ({ name, img, collection }) => (
-  <div className="card">
-    <img src={img} alt={`imagem de ${name}`} />
-    <h2>{name}</h2>
-    <span>{collection}</span>
-    <ul className="prices">
+  <S.Card>
+    <S.Image src={img} alt={`imagem de ${name}`} />
+    <S.Title>{name}</S.Title>
+    <S.SubTitle>{collection}</S.SubTitle>
+    <S.Prices>
       <li>
-        <p className="price">R$ 00,00</p>
-        <span className="price-type">Min</span>
+        <S.Price color="green">R$ 00,00</S.Price>
+        <S.PriceType>Min</S.PriceType>
       </li>
       <li>
-        <p className="price">R$ 00,00</p>
-        <span className="price-type">Med</span>
+        <S.Price color="yellow">R$ 00,00</S.Price>
+        <S.PriceType>Med</S.PriceType>
       </li>
       <li>
-        <p className="price">R$ 00,00</p>
-        <span className="price-type">Max</span>
+        <S.Price color="red">R$ 00,00</S.Price>
+        <S.PriceType>Max</S.PriceType>
       </li>
-    </ul>
-  </div>
+    </S.Prices>
+  </S.Card>
 )
 
 export { Card }
