@@ -10,20 +10,24 @@ const SearchMenu = () => (
           <HiSearchCircle />
         </S.SearchButton>
       </div>
-      <span>Procure pelo nome do seu herói</span>
+      <S.Subtitle>Procure pelo nome do seu herói</S.Subtitle>
     </S.Form>
     <S.Form action="">
-      <select name="" id="">
-        <option value=""></option>
-        <option value="">Wheels of Vengeance</option>
-      </select>
-      <span>Selecione uma coleção para procura</span>
+      <S.Select name="" id="">
+        <option style={{ color: '#000000' }} value=""></option>
+        <option style={{ color: '#000000' }} value="">
+          Wheels of Vengeance
+        </option>
+      </S.Select>
+      <S.Subtitle>Selecione uma coleção para procura</S.Subtitle>
     </S.Form>
+    <S.Container className="login">
+      <S.Subtitle style={{ maxWidth: 150 }}>Cadastre-se ou Login</S.Subtitle>
 
-    <div className="login">
-      <p>Cadastre-se ou efetuar Login</p>
-      <HiShoppingCart />
-    </div>
+      <S.CartButton>
+        <HiShoppingCart />
+      </S.CartButton>
+    </S.Container>
   </S.Container>
 )
 
