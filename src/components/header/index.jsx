@@ -1,3 +1,5 @@
+import * as S from './style'
+
 const Header = () => (
   <header>
     <img
@@ -7,9 +9,9 @@ const Header = () => (
         width: 100,
       }}
     />
-    <h1>My</h1>
-    <span>Heroclix</span>
-    <h1>Marketplace</h1>
+    <S.Title>My</S.Title>
+    <S.emphasis>Heroclix</S.emphasis>
+    <S.Title>Marketplace</S.Title>
   </header>
 )
 

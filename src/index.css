@@ -1,5 +1,4 @@
 * {
-  background: var(--cor-bl-primary);
   color: var(--cor-wt-primary);
   box-sizing: border-box;
   margin: 0;
@@ -15,23 +14,15 @@
   --cor-black: #000000;
 }
 
+body {
+  background: var(--cor-bl-primary);
+}
+
 header {
   align-items: center;
   display: flex;
   gap: 1rem;
   padding: 0.5rem;
-}
-
-header,
-h1 {
-  font-size: 2rem;
-  text-transform: uppercase;
-}
-
-header,
-span {
-  color: var(--cor-red-primary);
-  font-weight: bold;
 }
 
 .cards {
