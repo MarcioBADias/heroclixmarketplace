@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { Card } from '../card'
+import * as S from './style'
 
 const Cards = () => {
   const [cards, setCards] = useState([])
@@ -13,29 +15,16 @@ const Cards = () => {
   }, [cards])
 
   return (
-    <div className="cards">
+    <S.Cards>
       {cards.map((card) => (
-        <div key={card.id} className="card">
-          <img src={card.img} alt={`imagem de ${card.name}`} />
-          <h2>{card.name}</h2>
-          <span>{card.collection}</span>
-          <ul className="prices">
-            <li>
-              <p className="price">R$ 00,00</p>
-              <span className="price-type">Min</span>
-            </li>
-            <li>
-              <p className="price">R$ 00,00</p>
-              <span className="price-type">Med</span>
-            </li>
-            <li>
-              <p className="price">R$ 00,00</p>
-              <span className="price-type">Max</span>
-            </li>
-          </ul>
-        </div>
+        <Card
+          key={card.id}
+          name={card.name}
+          img={card.img}
+          collection={card.collection}
+        />
       ))}
-    </div>
+    </S.Cards>
   )
 }
 

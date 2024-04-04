@@ -25,12 +25,6 @@ header {
   padding: 0.5rem;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .card {
   background: var(--cor-wt-primary);
   border-radius: 15px;
