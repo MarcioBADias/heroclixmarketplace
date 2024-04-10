@@ -1,4 +1,4 @@
-import { Item } from './pages/Item'
+import { Item } from './pages/ItemDetails'
 
 const App = () => {
   return (
