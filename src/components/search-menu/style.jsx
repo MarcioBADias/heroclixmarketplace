@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   align-items: center;
   background: var(--cor-red-primary);
+  color: var(--cor-wt-primary);
   display: flex;
   justify-content: space-around;
   height: 15vh;
@@ -59,7 +60,7 @@ export const Subtitle = styled.p`
 export const CartButton = styled.button`
   background-color: transparent;
   border: none;
-  color: var(--cor-red-primary);
+  color: var(--cor-wt-primary);
   cursor: pointer;
   height: 65px;
   width: 65px;
