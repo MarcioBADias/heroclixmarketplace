@@ -1,13 +1,9 @@
-import { SearchMenu } from './components/search-menu'
-import { Cards } from './components/cards'
-import { Header } from './components/header'
+import { Item } from './pages/ItemDetails'
 
 const App = () => {
   return (
     <>
-      <Header />
-      <SearchMenu />
-      <Cards />
+      <Item />
     </>
   )
 }
