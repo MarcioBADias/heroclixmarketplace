@@ -1,9 +1,9 @@
-import { Item } from './pages/ItemDetails'
+import { Login } from './pages/login'
 
 const App = () => {
   return (
     <>
-      <Item />
+      <Login />
     </>
   )
 }
