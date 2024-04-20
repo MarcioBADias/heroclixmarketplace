@@ -23,3 +23,12 @@ export const Input = styled.input`
   margin: 1rem;
   width: 400px;
 `
+export const Enter = styled.button`
+  background: var(--cor-wt-primary);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 30%;
+  padding: 0.5rem;
+  width: 40%;
+`

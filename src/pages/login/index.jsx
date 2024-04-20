@@ -15,11 +15,17 @@ const Login = () => {
           <S.Input />
           <label htmlFor="">Senha</label>
           <S.Input />
+          <S.Enter>Entrar</S.Enter>
           <div
-            style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-around',
+              padding: '1rem',
+            }}
           >
-            <button>Entrar</button>
             <p>Náo tenho cadastro</p>
+            <p>Esqueci minha senha</p>
           </div>
         </S.Form>
       </S.Container>
