@@ -4,6 +4,9 @@ const Login = () => {
   return (
     <>
       <Header />
+      <form action="POST">
+        
+      </form>
     </>
   )
 }
