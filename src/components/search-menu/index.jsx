@@ -3,11 +3,13 @@ import { HiSearchCircle, HiShoppingCart } from 'react-icons/hi'
 
 const SearchMenu = () => (
   <S.Container>
+    <S.Content>
     <S.Form action="#">
       <div>
         <S.Input type="text" />
         <S.SearchButton>
           <HiSearchCircle />
+
         </S.SearchButton>
       </div>
       <S.Subtitle>Procure pelo nome do seu herói</S.Subtitle>
@@ -21,13 +23,13 @@ const SearchMenu = () => (
       </S.Select>
       <S.Subtitle>Selecione uma coleção para procura</S.Subtitle>
     </S.Form>
-    <S.Container className="login">
-      <S.Subtitle style={{ maxWidth: 150 }}>Cadastre-se ou Login</S.Subtitle>
-
+    </S.Content>
+    <S.Content className="login">
       <S.CartButton>
         <HiShoppingCart />
       </S.CartButton>
-    </S.Container>
+      <S.Subtitle style={{ maxWidth: 150 }}>Cadastre-se ou Login</S.Subtitle>
+    </S.Content>
   </S.Container>
 )
 

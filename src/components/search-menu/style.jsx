@@ -6,11 +6,19 @@ export const Container = styled.div`
   color: var(--cor-wt-primary);
   display: flex;
   justify-content: space-around;
-  height: 15vh;
   margin: 1rem 0;
+  padding: 1rem;
   position: relative;
 `
+export const Content = styled.div `
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
+  @media (min-width: 840px) {
+    flex-direction: row;
+}
+`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
@@ -23,7 +31,7 @@ export const Input = styled.input`
   font-size: 1rem;
   font-family: 'Red Hat Display', sans-serif;
   padding: 1rem;
-  width: 400px;
+  width: 100%;
 `
 export const Select = styled.select`
   border: none;
