@@ -7,7 +7,7 @@ const Cards = () => {
 
   useEffect(() => {
     fetch(
-      'https://raw.githubusercontent.com/MarcioBADias/hcMocAPI/main/hcMocAPI.json',
+      'https://raw.githubusercontent.com/MarcioBADias/data-fake/refs/heads/main/hc-prices-api.json',
     )
       .then((r) => r.json())
       .then((data) => setCards(data))
@@ -18,10 +18,11 @@ const Cards = () => {
     <S.Cards>
       {cards.map((card) => (
         <Card
-          key={card.id}
-          name={card.name}
-          img={card.img}
+          key={card.collection}
+          name={card.CharacterName}
+          img={`https://www.hcrealms.com/units/${card.collection}${card.SerialNumber}.jpg`}
           collection={card.collection}
+          price={card.Price}
         />
       ))}
     </S.Cards>
