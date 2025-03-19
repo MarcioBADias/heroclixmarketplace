@@ -1,7 +1,7 @@
 import * as S from './style'
 
 const Header = () => (
-  <header>
+    <S.Header>
     <img
       className="logoRotate"
       src="/hcMkpWhite.png"
@@ -9,10 +9,10 @@ const Header = () => (
         width: 100,
       }}
     />
-    <S.Title>My</S.Title>
     <S.emphasis>Heroclix</S.emphasis>
     <S.Title>Marketplace</S.Title>
-  </header>
+
+    </S.Header>
 )
 
 export { Header }
